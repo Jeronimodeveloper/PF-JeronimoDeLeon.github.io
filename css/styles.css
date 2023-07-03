@@ -4,9 +4,16 @@ body {
   background-repeat: no-repeat;
   height: 100%;
   min-height: 100vh;
+  font-family: "Josefin Sans", sans-serif;
 }
 
 #titulo {
-  color: white;
-  text-shadow: 3px 4px 16px #000;
+  color: #f8f9fa;
+  text-shadow: 3px 2px 30px #000;
+}
+
+/* NAV BAR */
+
+#offcanvasNavbar > div.offcanvas-body > ul > li:hover {
+  opacity: 50%;
 }
