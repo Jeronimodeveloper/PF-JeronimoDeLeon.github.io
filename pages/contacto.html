@@ -10,7 +10,7 @@
       integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="../css/styles.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
@@ -24,6 +24,7 @@
 
   <body>
     <div class="container">
+      <!-- NAVBAR -->
       <nav class="navbar navbar-expand-md bg-body-tertiary fixed-top p-2">
         <div class="container-fluid">
           <button
@@ -58,7 +59,7 @@
                   <a
                     class="nav-link active"
                     aria-current="page"
-                    href="./index.html"
+                    href="../index.html"
                     >HOME</a
                   >
                 </li>
@@ -84,81 +85,80 @@
       <div class="col mt-5 pt-5 text-center">
         <h1 class="fw-bolder">FORMULARIO DE CONTACTO</h1>
       </div>
-
       <div class="text-center">
         <h3 class="fw-bold">Ingresa tus datos</h3>
         <p>Y en breve me pondré en contacto contigo</p>
         <br />
         <hr />
         <br />
-        <!-- FORM -->
-        <div>
-          <form action="#">
-            <div class="form-group col-md-4">
-              <label for="name">Nombre</label>
-              <input
-                type="text"
-                class="form-control"
-                id="name"
-                placeholder="Ingrese su nombre completo"
-                name="name"
-              />
+      </div>
 
-              <label for="email">Email:</label>
-              <input
-                type="email"
-                class="form-control"
-                id="email"
-                placeholder="Ingrese email"
-                name="email"
-              />
-
-              <label for="number">Telefono:</label>
-              <input
-                type="number"
-                class="form-control"
-                id="number"
-                placeholder="Ingrese su telefono"
-                name="number"
-              />
-            </div>
-            <br />
-            <hr />
-            <br />
-            <label for="textarea">Deje su mensaje</label>
-            <textarea
+      <!-- FORM -->
+      <div>
+        <form action="#">
+          <div class="form-group col-md-4">
+            <label for="name">Nombre</label>
+            <input
+              type="text"
               class="form-control"
-              name="textarea"
-              id="textarea"
-              rows="5"
-            ></textarea>
-            <br />
-            <div class="pb-4 mb-5">
-              <button type="submit" class="btn btn-outline-dark">
-                Ingresar
-              </button>
-            </div>
-          </form>
-        </div>
+              id="name"
+              placeholder="Ingrese su nombre completo"
+              name="name"
+            />
 
-        <!-- Footer -->
-        <footer class="bg-dark fixed-bottom mt-4">
-          <div class="container py-2">
-            <div class="row">
-              <div class="col-6 text-center">
-                <a href="https://www.instagram.com/jeronimo.pk/"
-                  ><i class="fab fa-2x fa-instagram"></i
-                ></a>
-              </div>
-              <div class="col-6 text-center">
-                <a href="https://www.youtube.com/@Jeronimo.parkour/"
-                  ><i class="fab fa-2x fa-youtube"></i
-                ></a>
-              </div>
+            <label for="email">Email:</label>
+            <input
+              type="email"
+              class="form-control"
+              id="email"
+              placeholder="Ingrese email"
+              name="email"
+            />
+
+            <label for="number">Telefono:</label>
+            <input
+              type="number"
+              class="form-control"
+              id="number"
+              placeholder="Ingrese su telefono"
+              name="number"
+            />
+          </div>
+          <br />
+          <hr />
+          <br />
+          <label for="textarea">Deje su mensaje</label>
+          <textarea
+            class="form-control"
+            name="textarea"
+            id="textarea"
+            rows="5"
+          ></textarea>
+          <br />
+          <div class="pb-4 mb-5">
+            <button type="submit" class="btn btn-outline-dark">Ingresar</button>
+          </div>
+        </form>
+      </div>
+
+      <!-- FOOTER -->
+      <footer class="bg-dark fixed-bottom mt-4">
+        <div class="container py-2">
+          <div class="row">
+            <div class="col-6 text-center">
+              <a href="https://www.instagram.com/jeronimo.pk/"
+                ><i class="fab fa-2x fa-instagram"></i
+              ></a>
+            </div>
+            <div class="col-6 text-center">
+              <a href="https://www.youtube.com/@Jeronimo.parkour/"
+                ><i class="fab fa-2x fa-youtube"></i
+              ></a>
             </div>
           </div>
-        </footer>
-      </div>
+        </div>
+      </footer>
+
       <script
         src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
