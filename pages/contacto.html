@@ -64,16 +64,22 @@
                   >
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Personal Trainer</a>
+                  <a class="nav-link" href="./PersonalT.html"
+                    >Personal Trainer</a
+                  >
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Parkour Acro Coach</a>
+                  <a class="nav-link" href="./ParkourC.html"
+                    >Parkour Acro Coach</a
+                  >
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Performer Stunt</a>
+                  <a class="nav-link" href="./Performer.html"
+                    >Performer Stunt</a
+                  >
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">CONTACTO</a>
+                  <a class="nav-link" href="./contacto.html">CONTACTO</a>
                 </li>
               </ul>
             </div>
@@ -124,9 +130,11 @@
               name="number"
             />
           </div>
+
           <br />
           <hr />
           <br />
+
           <label for="textarea">Deje su mensaje</label>
           <textarea
             class="form-control"
@@ -135,10 +143,53 @@
             rows="5"
           ></textarea>
           <br />
+
           <div class="pb-4 mb-5">
-            <button type="submit" class="btn btn-outline-dark">Ingresar</button>
+            <button
+              type="submit"
+              class="btn btn-outline-dark"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal"
+            >
+              Ingresar
+            </button>
           </div>
         </form>
+
+        <!-- Modal -->
+        <div
+          class="modal fade"
+          id="exampleModal"
+          tabindex="-1"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">
+                  Tu mensaje a sido enviado con éxito!
+                </h1>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  data-bs-dismiss="modal"
+                >
+                  CERRAR
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
 
       <!-- FOOTER -->
