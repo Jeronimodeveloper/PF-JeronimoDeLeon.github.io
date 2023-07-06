@@ -102,7 +102,7 @@
       <!-- FORM -->
       <div>
         <form action="#">
-          <div class="form-group col-md-4">
+          <div class="form-group col-md-8 container-fluid">
             <label for="name">Nombre</label>
             <input
               type="text"
@@ -112,7 +112,7 @@
               name="name"
             />
 
-            <label for="email">Email:</label>
+            <label class="pt-4" for="email">Email:</label>
             <input
               type="email"
               class="form-control"
@@ -121,7 +121,7 @@
               name="email"
             />
 
-            <label for="number">Telefono:</label>
+            <label class="pt-2" for="number">Telefono:</label>
             <input
               type="number"
               class="form-control"
@@ -135,7 +135,9 @@
           <hr />
           <br />
 
-          <label for="textarea">Deje su mensaje</label>
+          <label for="textarea" class="container-fluid pb-1"
+            >Deje su mensaje</label
+          >
           <textarea
             class="form-control"
             name="textarea"
@@ -144,7 +146,7 @@
           ></textarea>
           <br />
 
-          <div class="pb-4 mb-5">
+          <div class="pb-4 mb-5 text-center">
             <button
               type="submit"
               class="btn btn-outline-dark"
