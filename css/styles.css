@@ -1,15 +1,22 @@
 body {
-  background: linear-gradient(to bottom, #086fa3c2, #afd8ed);
+  background: linear-gradient(to bottom, #007ece, #f8f9fa);
   background-size: cover;
   background-repeat: no-repeat;
   height: 100%;
   min-height: 100vh;
-  font-family: "Josefin Sans", sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  text-shadow: 6px 1px 46px rgba(4, 4, 4, 0.6);
 }
 
 #titulo {
   color: #f8f9fa;
-  text-shadow: 0px 4px 6px #000;
+  text-shadow: 6px 1px 46px rgba(4, 4, 4, 0.6);
+  font-family: "Rowdies";
+  letter-spacing: 6px;
 }
 
 /* NAV BAR */
