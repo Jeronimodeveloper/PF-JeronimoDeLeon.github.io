@@ -31,6 +31,7 @@ h1 {
   font-family: "Rowdies";
   letter-spacing: 20px;
   font-size: 2.5rem;
+}
 
 #titulo:hover {
   letter-spacing: 18px;
