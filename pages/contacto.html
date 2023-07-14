@@ -10,7 +10,7 @@
       integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="stylesheet" href="../sass/main.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
@@ -91,12 +91,13 @@
       <div class="col mt-5 pt-5 text-center">
         <h1 class="fw-bolder">FORMULARIO DE CONTACTO</h1>
       </div>
+
+      <hr />
+      <br />
+
       <div class="text-center">
-        <h3 class="fw-bold">Ingresa tus datos</h3>
+        <h3 class="fw-semibold">Ingresa tus datos</h3>
         <p>Y en breve me pondré en contacto contigo</p>
-        <br />
-        <hr />
-        <br />
       </div>
 
       <!-- FORM -->
@@ -106,7 +107,7 @@
             <label for="name">Nombre</label>
             <input
               type="text"
-              class="form-control"
+              class="form-control zooming"
               id="name"
               placeholder="Ingrese su nombre completo"
               name="name"
@@ -115,7 +116,7 @@
             <label class="pt-4" for="email">Email:</label>
             <input
               type="email"
-              class="form-control"
+              class="form-control zooming"
               id="email"
               placeholder="Ingrese email"
               name="email"
@@ -124,7 +125,7 @@
             <label class="pt-2" for="number">Telefono:</label>
             <input
               type="number"
-              class="form-control"
+              class="form-control zooming"
               id="number"
               placeholder="Ingrese su telefono"
               name="number"
@@ -135,21 +136,23 @@
           <hr />
           <br />
 
-          <label for="textarea" class="container-fluid pb-1"
-            >Deje su mensaje</label
-          >
-          <textarea
-            class="form-control"
-            name="textarea"
-            id="textarea"
-            rows="5"
-          ></textarea>
-          <br />
+          <div class="zooming">
+            <label for="textarea" class="container-fluid pb-1"
+              >Deje su mensaje</label
+            >
+            <textarea
+              class="form-control"
+              name="textarea"
+              id="textarea"
+              rows="5"
+            ></textarea>
+            <br />
+          </div>
 
           <div class="pb-4 mb-5 text-center">
             <button
               type="submit"
-              class="btn btn-outline-dark"
+              class="btn btn-outline-dark zooming"
               data-bs-toggle="modal"
               data-bs-target="#exampleModal"
             >
