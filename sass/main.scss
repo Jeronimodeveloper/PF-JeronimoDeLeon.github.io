@@ -13,7 +13,6 @@ body {
   }
 
   #offcanvasNavbar > div.offcanvas-body > ul > li:hover {
-	
 	border-left: solid 2px $colorFondo;
 	border-right: solid 2px $colorFondo;
 	border-radius: 15%;
@@ -22,7 +21,6 @@ body {
 
   #frase {
 	font-family: "Fondamento", cursive;
-	color: grey;
 	line-height: 2.5;
   }
 
@@ -64,15 +62,7 @@ body {
 	text-decoration-line: underline;
   }
   
-  #kik {
-	text-decoration: none;
-	color: rgb(217, 205, 27);
-	font-family: Arial, Helvetica, sans-serif;
-	font-weight: 700;
-	text-decoration-line: underline;
-  }
-  
-  .zooming:hover {
+ .zooming:hover {
 	zoom: 105%;
   }
 

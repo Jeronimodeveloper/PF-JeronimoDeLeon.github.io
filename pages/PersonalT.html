@@ -36,10 +36,10 @@
     <div class="container">
 
      <!-- Navbar -->
-     <nav class="navbar navbar-expand-md bg-body-tertiary fixed-top p-2">
-      <div class="container-fluid justify-content-center">
-        <button
-          class="navbar-toggler"
+     <nav class="navbar navbar-expand-md bg-dark fixed-top p-2">
+        <div class="container-fluid justify-content-center">
+         <button
+          class="navbar-toggler bg-secondary"
           type="button"
           data-bs-toggle="offcanvas"
           data-bs-target="#offcanvasNavbar"
@@ -47,56 +47,76 @@
           aria-label="Toggle navigation"
         >
           <span class="navbar-toggler-icon"></span>
-        </button>
+         </button>
 
-        <div
-          class="offcanvas offcanvas-start offcanvas-slide"
+         <div
+          class="offcanvas offcanvas-start offcanvas-slide bg-dark"
           tabindex="-1"
           id="offcanvasNavbar"
           aria-labelledby="offcanvasNavbarLabel"
-        >
-          <div class="offcanvas-header justify-content-center">
-            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">MENU</h5>
+          >
+            <div class="offcanvas-header justify-content-center">
             <button
               type="button"
-              class="btn-close"
+              class="btn-close bg-secondary"
               data-bs-dismiss="offcanvas"
               aria-label="Close"
             ></button>
-          </div>
-          <div class="offcanvas-body">
-            <ul class="navbar-nav flex-grow-1 pe-3 justify-content-center">
-              <li class="nav-item text-center">
+           </div>
+           <div class="offcanvas-body">
+            <ul class="navbar-nav flex-grow-1 justify-content-center">
+              <li class="nav-item text-center zooming">
                 <a
-                  class="nav-link active"
+                  class="nav-link active text-secondary"
                   aria-current="page"
                   href="../index.html"
                   >HOME</a
                 >
               </li>
-              <li class="nav-item text-center">
-                <a class="nav-link" href="../pages/PersonalT.html"
+              <li class="nav-item text-center zooming">
+                <a
+                  class="nav-link text-secondary"
+                  href="../pages/PersonalT.html"
                   >Personal Trainer</a
                 >
               </li>
-              <li class="nav-item text-center">
-                <a class="nav-link" href="../pages/ParkourC.html"
+              <li class="nav-item text-center zooming">
+                <a
+                  class="nav-link text-secondary"
+                  href="../pages/ParkourC.html"
                   >Parkour & Acrobatics</a
                 >
               </li>
-              <li class="nav-item text-center">
-                <a class="nav-link" href="../pages/Performer.html"
+              <li class="nav-item text-center zooming">
+                <a
+                  class="nav-link text-secondary"
+                  href="../pages/Performer.html"
                   >Performer & Stunt</a
                 >
               </li>
-              <li class="nav-item text-center">
-                <a class="nav-link" href="../pages/contacto.html">CONTACTO</a>
+              <li class="nav-item text-center zooming">
+                <a
+                  class="nav-link text-secondary"
+                  href="../pages/contacto.html"
+                  >CONTACTO</a
+                >
               </li>
             </ul>
+            <div class="d-block d-md-none text-center">
+              <br />
+              <hr class="text-secondary" />
+              <br />
+              <p class="text-secondary" id="frase">
+                "Deja que el movimiento te guíe hacia un cuerpo fuerte, una
+                mente equilibrada y un espíritu indomable."
+              </p>
+              <br />
+              <hr class="text-secondary" />
+            </div>
+           </div>
           </div>
         </div>
-      </div>
-    </nav>
+     </nav>
 
       <!-- TITULOS -->
       <div class="col mt-5 pt-5 text-center">
@@ -107,8 +127,8 @@
     
       <hr />
       
-        <!-- TEXTOS -->
-        <div class="row animationTxt">
+      <!-- TEXTOS -->
+        <div class="row animationTxt m-2">
           <div class="row-cols-12 backText rounded-4 mb-2">
             <h3 class="pt-2">ESTUDIOS Y MÁS</h3>
             <p>
@@ -182,25 +202,23 @@
           </div>
         </div>
       
-        
-        
-        <!-- FOOTER -->
-        <footer class="bg-body-tertiary fixed-bottom mt-4">
-          <div class="container py-2">
-            <div class="row">
-              <div class="col-6 text-center animationTxt">
-                <a href="https://www.instagram.com/jeronimo.pk/"
-                  ><i class="fab text-secondary fa-2x fa-instagram"></i
-                ></a>
-              </div>
-              <div class="col-6 text-center animationTxt">
-                <a href="https://www.youtube.com/@Jeronimo.parkour/"
-                  ><i class="fab text-secondary fa-2x fa-youtube"></i
-                ></a>
-              </div>
+        <!-- Footer -->
+      <footer class="bg-dark fixed-bottom mt-4">
+        <div class="container py-2">
+          <div class="row">
+            <div class="col-6 text-center animationTxt">
+              <a href="https://www.instagram.com/jeronimo.pk/"
+                ><i class="fab text-secondary fa-2x fa-instagram"></i
+              ></a>
+            </div>
+            <div class="col-6 text-center animationTxt">
+              <a href="https://www.youtube.com/@Jeronimo.parkour/"
+                ><i class="fab text-secondary fa-2x fa-youtube"></i
+              ></a>
             </div>
           </div>
-        </footer>
+        </div>
+      </footer>
       </div>
       <script
         src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
