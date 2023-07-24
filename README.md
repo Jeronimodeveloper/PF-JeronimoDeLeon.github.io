@@ -1,4 +1,4 @@
 # PreEntrega2.github.io
-Page developed in Bootstrap, with use of SASS
+Responsive webpage developed with <b>Bootstrap<b>, and the use of <b>Sass<b>.
 
 ![webpgage preview](webPreview.png)
