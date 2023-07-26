@@ -1,2 +1,4 @@
 # PreEntrega2.github.io
-Creating web responsive with BOOTSTRAP
+Responsive webpage developed with <b>Bootstrap<b> and <b>Sass<b>.
+
+![webpgage preview](webPreview.png)
